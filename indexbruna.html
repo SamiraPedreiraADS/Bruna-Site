@@ -1,0 +1,423 @@
+  <!DOCTYPE html>
+  <html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Zeri</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fdfae5;
+}
+
+.topo {
+    background-color: #3a5168; 
+    height: 110px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topo img {
+    height: 185px; 
+    transform: translateY(10px); 
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.apresentar {
+    color: #715a13;
+    padding: 60px;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px; 
+    animation: slideInLeft 2.5s ease-out;
+}
+
+.Bruna {
+    font-size: 15px;
+    display: flex;
+    font-family: "Lora", serif;
+    color: #5f4b10;
+    padding: 60px;
+    margin-top: -95px;
+    text-align: justify;
+    line-height: 2.2;
+    animation: slideInLeft 2.5s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.imagem {
+    width: 95%;
+    display: flex;
+    justify-content: right;
+    margin-inline: -90px;
+    margin-top: -415px;
+    animation: slideInLeft 2.5s ease-out;
+
+}
+
+.imagem-borda {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #978033;
+    object-fit: cover;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    animation: slideInLeft 2.5s ease-out;
+  }
+
+
+.servicos {
+    font-family: "Lora", serif;
+    color: #715a13;
+    padding: 60px;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 130px;
+    text-align: center;
+    animation: slideInLeft 2.5s ease-out;
+}
+
+.principal {
+    border: none;
+    height: 3px;
+    background-color:  #3a5168; 
+    width: 40%; 
+    margin: -37px auto; 
+ }
+
+ hr {
+    border: none;
+    height: 2px;
+    background-color:  #3a5168; 
+    width: 20%; 
+    margin: -37px auto; 
+    animation: slideInLeft 2.5s ease-out;
+ } 
+
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h3 {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 80px;
+    color:  #3c6085;
+    margin: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.micro {
+    margin-top: -470px;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 60px;
+    margin-top: -150px;
+    text-align: center;
+    line-height: 2.2;
+    color: #715a13;
+    
+}
+
+.imagens {
+    width: 180px;
+    height: 160px;
+    margin: 590px;
+    margin-top: 145px;
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    border-radius: 100px;
+    animation: fadeIn 2.5s ease-in-out;
+    
+}
+
+#img1 {
+    border-radius: 50px;
+    border:#978033 solid 4px;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.24);
+}
+#img2 {
+    border-radius: 50px;
+    border:#978033 solid 4px;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.1);
+}
+#img3 {
+    border-radius: 50px;
+    border:#978033 solid 4px;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contato { 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 170px;
+    height: 90px;
+    margin: 60px;
+    margin-top: -30px;
+    animation: fa deIn 1.5s ease-in-out;
+    overflow: hidden;
+}
+
+.whatsapp {
+    width: 40px;  
+    height: auto;
+    margin-top: 5px;
+    margin-right: 100px;
+    margin-left: -55px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.whatsapp:hover {
+    opacity: 0.8;  
+}
+
+.instagram {
+    width: 40px;  
+    height: auto;
+    margin-top: 5px;
+    margin-right: -50px;
+    margin-left: -85px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+   .imagem {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 6px;
+    margin-right: -100px;
+    animation: slideInLeft 2.5s ease-out;
+
+   }
+}
+
+
+@media (max-width: 430px) { /*400x800px*/
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    .imagem{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -45px;
+    animation: slideInLeft 2.5s ease-out;
+}
+ .contato {
+    margin-right: 1100px;
+    margin-left: 62px;
+}
+
+.apresentar {
+    font-size: 30px;
+    margin: 1px;
+    margin-left: -5px;
+    margin-right: 8px;
+    padding: 50px;
+}
+.Bruna {
+    font-size: 12px;
+    padding-left: 45px;
+    padding-right: 60px;
+    margin-top: -85px;
+    letter-spacing: 0.6px;
+    hyphens: auto
+}
+
+.servicos {
+    margin-left: -15px;
+    margin-top: 4px;
+}
+
+.principal{
+    margin-left: 90px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-left: 90px;
+}
+
+.tratamento {
+    display: flex;
+    flex-direction: column; /* Um elemento embaixo do outro */
+    align-items: center;  /* Centraliza horizontalmente */
+    justify-content: center;
+}
+
+.estrias {
+    display: flex;
+    flex-direction: column; /* Um elemento embaixo do outro */
+    align-items: center;  /* Centraliza horizontalmente */
+    justify-content: center;;
+}
+
+.micro {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.imagens {
+    margin-left: 78px;
+    flex-direction: column;
+    margin-top: 155px;
+    width: 150px;
+}
+.topo img {
+    height: 140px; 
+    transform: translateY(15px); 
+}
+
+    }
+}
+
+@media (max-width: 768px) {
+    imagem {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-inline: -90px;
+        margin-top: -460px;
+        animation: slideInLeft 2.5s ease-out;
+}
+
+}
+    </style>
+  
+  </head>
+
+  
+  <body>
+    <div class="flex">
+    <div class="topo">
+        <img src="logobruna.png" alt="">
+    </div>
+    <h1 class="apresentar">Quem sou Eu? </h1>
+    <p class="Bruna">Sou Bruna Zeri, esteticista e cosmetóloga, especializada em estética facial e tratamento de estrias. <br>Minha missão é ajudar mulheres a se sentirem seguras com sua pele através de cuidados eficazes e personalizados. <br>Sem promessas milagrosas, mas com técnica e conhecimento, proporciono resultados reais. <br> Quer valorizar sua pele de dentro para fora? Entre em contato!<br><br>Clique abaixo para agendar sua consulta e conhecer mais meu trabalho!</p>
+    
+    <div class="contato">
+      <a href="https://wa.me/5516988002771" target="_blank">
+      <img src="WhatsApp_logo.png" alt="WhatsApp" class="whatsapp">
+    </a>
+    
+      <a href="https://www.instagram.com/zeribruna/" target="_blank">
+      <img src="instagram.png" alt="Instagram" class="instagram">
+    </a>
+    </div>
+   
+   
+    <div class="imagem">
+        <img src="brunaimagem.jpeg" alt="Bruna Zeri" class="imagem-borda">
+    </div>
+
+
+
+    <h2 class="servicos">Meus Serviços</h2>
+    <hr class="principal">
+
+
+    <div class="imagens">
+    <img id="img1" src="massagemfac.jpg" alt="">
+    <img id="img2" src="microagulha.jpg">
+    <img id="img3" src="skincare.jpg">
+   </div>
+
+  
+
+  
+
+    <h3 class="micro">Microagulhamento</h3>
+    <p>O microagulhamento é um procedimento estético que utiliza agulhas finas para estimular a produção de colágeno na pele. <br>Esse tratamento é ideal para cicatrizes de acne, estrias, rugas e flacidez. <br>Além disso, pode ajudar na prevenção da queda de cabelo, promovendo um aspecto mais firme e saudável à pele.</p>
+    
+    <hr>
+
+    <h3>Limpeza de Pele</h3>
+    <p>A limpeza de pele é fundamental para maximizar os efeitos dos dermocosméticos.<br> Ela elimina impurezas, células mortas e o excesso de oleosidade, deixando a pele mais preparada para os tratamentos seguintes. <br>Além de prevenir acne, a limpeza proporciona frescor e um aspecto saudável à pele.</p>
+
+    <hr>
+
+    <h3>Massagem Facial</h3>
+    <p>A massagem facial melhora a circulação sanguínea e linfática, além de relaxar os músculos do rosto.<br> Realizada com as mãos ou com aparelhos específicos de skincare, como rolos faciais e gua sha.<br> Essa técnica promove uma pele mais firme e relaxada, além de um bem-estar geral.</p>
+    
+    <hr>
+    <h3>Peeling Químico</h3>
+    <p>O peeling químico usa ácidos para remover camadas danificadas da pele,<br> estimulando o crescimento de uma camada nova e mais uniforme.<br> Esse tratamento é eficaz para combater manchas, linhas de expressão e melhorar a textura da pele, <br>conferindo um aspecto jovem e saudável.</p>
+
+    <hr>
+    <h3 class="tratamento">Tratamentos Capilares</h3>
+    <p>Os tratamentos capilares combinam técnicas como microagulhamento e alta frequência <br>para estimular o crescimento de cabelo, sobrancelhas e barba.<br> A aplicação de ativos tópicos melhora o fortalecimento capilar e reduz a queda, promovendo fios mais saudáveis.</p>
+
+    <hr>
+    <h3 class="estrias">Tratamento para Estrias</h3>
+    <p>O tratamento para estrias utiliza procedimentos dermatológicos para atenuar as marcas na pele,<br> causadas por fatores como gravidez, alterações hormonais ou variações de peso. <br>O objetivo é melhorar a textura da pele e minimizar a aparência das estrias, proporcionando uma pele mais uniforme.</p>
+  </div>
+  </body>
+  </html>
